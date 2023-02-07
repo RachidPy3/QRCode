@@ -9,25 +9,25 @@
 
 body {
   margin: 0;
-  pad: 0;
+  padding: 0;
   box-sizing: border-box;
+  min-height: 100vh;
   background: var(--Lightgray);
   font-family: Outfit;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.container {
+main {
   background-color: var(--White);
   width: 300px;
-  height: 470px;
   padding: 10px;
   border-radius: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 5px 25px var(--Lightgray);
-  margin-top: 50px;
 }
 
 img {
@@ -35,17 +35,18 @@ img {
   border-radius: 4%;
 }
 
-p {
+p,
+h1 {
   text-align: center;
 }
 
-.big-text {
+h1 {
   color: var(--Darkblue);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
-.small-text {
+p {
   color: var(--Grayishblue);
-  font-size: 17px;
+  font-size: 1rem;
 }
